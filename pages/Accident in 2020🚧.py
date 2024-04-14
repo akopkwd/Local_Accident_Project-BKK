@@ -4,7 +4,7 @@ import streamlit.components.v1 as stc
 #from branca.tiles import OSM
 #from branca.colormap import LinearColormap
 #from branca.layer import TileLayer, GeoJSON
-#from folium.plugins import MarkerCluster
+from folium.plugins import MarkerCluster
 #from folium import Map, LayerControl, ColorControl, FeatureGroup, MarkerCluster  # Import from folium directly
 
 import folium
