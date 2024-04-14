@@ -368,12 +368,12 @@ with tab1:
    st.header("2020 Accident Information", divider = "red")
 
    st.subheader("Top 5 types of accidents")
-   df = pd.read_csv(r'E:/studyyy/year4/senior pj/test/web_test/event2020_withd_2.csv',encoding='ISO-8859-1')
+   df = pd.read_csv(r'https://github.com/akopkwd/Local_Accident_Project-BKK/blob/main/event2020_withd_2.csv',encoding='ISO-8859-1')
    df.drop(['OBJECTID', 'pcode'], axis=1, inplace=True)
    plot_type_counts(df)
 
    st.subheader("Type Description")
-   info = pd.read_csv(r'E:/studyyy/year4/senior pj/test/web_test/event_info.csv')
+   info = pd.read_csv(r'https://github.com/akopkwd/Local_Accident_Project-BKK/blob/main/event_info.csv')
    st.dataframe(info)
 
 
