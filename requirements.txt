@@ -1,0 +1,15 @@
+streamlit
+folium
+pandas
+matplotlib
+geopandas
+libpysal
+esda
+splot
+pydeck
+
+pysal
+numpy
+seaborn
+
+streamlit_folium
