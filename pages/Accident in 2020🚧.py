@@ -1,6 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as stc
 
+pip install folium
+
 #from branca.tiles import OSM
 #from branca.colormap import LinearColormap
 #from branca.layer import TileLayer, GeoJSON
